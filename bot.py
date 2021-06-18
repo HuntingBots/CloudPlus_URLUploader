@@ -13,7 +13,6 @@ import os
 # the secret configuration specific things
 if bool(os.environ.get("WEBHOOK", False)):
     
-else:
     from config import Config
 
 import pyrogram
